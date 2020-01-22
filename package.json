@@ -1,0 +1,22 @@
+{
+  "name": "basic_http",
+  "version": "0.0.0",
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.13.4"
+  },
+  "description": "A very simple html page server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Cody Van De Mark, Austin Willoughby",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
